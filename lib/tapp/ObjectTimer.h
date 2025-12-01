@@ -28,6 +28,12 @@ public:
     }
 
 
+    bool GetState(){
+
+        return Enabled;
+        
+    }
+
     void Start(unsigned long int _Timeout){
 
         Timeout = _Timeout;

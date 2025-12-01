@@ -6,13 +6,14 @@
 
 void setup()
 {
+ 
   Init();
+  
 }
 
 void loop()
 {
-
   App->Idle();
-//  ui.tick();
-
+  ui.tick();
+  telnet.loop();
 }
