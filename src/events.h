@@ -278,7 +278,7 @@ void Blink4(TTimer *Timer)
 
 void setupWiFi()
 {
-    WiFi.mode(WIFI_MODE_AP);
+    WiFi.mode(WIFI_AP);
     WiFi.softAP( SSID , PWD );
 }
 
